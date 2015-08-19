@@ -63,7 +63,7 @@ describe('AuthHandler', function() {
   /**
    * AuthHandler.requireCredentials
    */
-  describe('#requireCredentials', function () {
+  describe('#requireCredentials()', function () {
     it('should respond with 401 HTTP header', function () {
 
       var fakeStream = new FakeStream();
@@ -81,7 +81,7 @@ describe('AuthHandler', function() {
   /**
    * AuthHandler.redirect
    */
-  describe('#redirect', function () {
+  describe('#redirect()', function () {
     it('should respond with Location HTTP header', function () {
 
       var fakeStream = new FakeStream();
@@ -99,7 +99,7 @@ describe('AuthHandler', function() {
   /**
    * AuthHandler.decline
    */
-  describe('#decline', function () {
+  describe('#decline()', function () {
     it('should respond with 403 HTTP header', function () {
 
       var fakeStream = new FakeStream();
