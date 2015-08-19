@@ -1,4 +1,6 @@
 # Quickstart
+[![Build Status](https://travis-ci.org/alvassin/nodejs-icecast-auth.svg)](https://travis-ci.org/alvassin/nodejs-icecast-auth)
+
 Package uses [listener authentication mechanism](http://icecast.org/docs/icecast-2.4.1/auth.html) to provide handy interface for collecting [detailed connection data](#connection) and performing following actions with listeners:
 * [Accept connection](#accept)
 * [Accept & move listener to another mounpoint](#accept)
