@@ -1,0 +1,29 @@
+{
+  "name": "icecast-auth",
+  "version": "0.0.1",
+  "description": "Icecast command authenticator interface for nodejs.",
+  "author": "Alexander Vasin <hello@alvass.in>",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvassin/nodejs-icecast-auth.git"
+  },
+  "keywords": [
+    "icecast",
+    "radio",
+    "listener",
+    "authentication",
+    "stats",
+    "realtime"
+  ],
+  "bugs": {
+    "url": "https://github.com/alvassin/nodejs-icecast-auth/issues"
+  },
+  "license": "MIT"
+}
